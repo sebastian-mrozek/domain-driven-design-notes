@@ -11,7 +11,11 @@ Tips:
 - Maintain a dictionary of the language used in the model
 - Model is both, data and behavior.
 - Pick a few moderately complex use cases as the start of the analysis.
-- Setup 2 way comms between the users/domain experts and the engineering team (no additional iolated layers in between, like BAs) - show the domain experts your model in a user-friendly way, create ugly visualizations if possible to show how you solving the problem.
+- Setup 2 way comms between the users/domain experts and the engineering team (no additional iolated layers in between, like BAs) - show the domain experts your model in a user-friendly way, create (simple) visualizations if possible to show how you representing the model and solving the problems. Might be even worth communicating your internal module architecture or even class names (both, representing data and algorithms)
 - The model will never be perfect!
+- Refactor the code to follow evolving model and its domain language.
+- Diagrams can be of great help - don't over-complicate them, representing all the domain in one picture is detrimental to improving understanding. Reduce the scope of a diagram to a smaller context, possibly one or a few use cases.
+- Diagrams and documentation is supplementing the implementation - documentation is prone to being out of date quickly. Keep it succint.
+- The domain model must be consistent between the implementation, design, and team communication.
 
-Next: Two: Communication and the use of language.
+NEXT: Three. Binding Model and Implementation
